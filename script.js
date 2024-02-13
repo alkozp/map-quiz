@@ -124,7 +124,7 @@ document.querySelector('#close-modal').addEventListener('click', ()=>{
     timerPaused = true;
     initCountryList();
     document.querySelector('#start-timer').innerHTML = startTimerIcon;
-    document.querySelector('#timer').textContent = '00:05';
+    document.querySelector('#timer').textContent = '01:00';
     document.querySelector('#map svg').outerHTML = worldMap;
     changeIcon('start');
 })
