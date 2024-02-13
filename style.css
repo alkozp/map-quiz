@@ -1,0 +1,88 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 60svw;
+}
+
+form {
+    max-width: 30svw;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+form p {
+    display: inline;
+    color: #9ba3ac;
+}
+form span {
+    font-size: 2rem;
+}
+
+#input-country {
+    max-width: 18svw;
+    font-size: 2rem;
+    display: inline-block;
+}
+
+#input-country::placeholder {
+    opacity: 10%;
+}
+
+.checked-country {
+    fill: #d9efe0;
+}
+
+#start-timer svg {
+    overflow: visible;
+    cursor: pointer;
+    fill: gray;
+}
+
+#timer {
+    position:relative;
+    top: -8.5rem;
+    margin: 0 auto;
+    width: 20rem;
+    font-size: 4rem;
+    color:gray;
+}
+
+#score {
+    width: 100svw;
+    max-height: 100svh;
+}
+
+#score::backdrop {
+    background: azure;
+    opacity: 70%;
+}
+
+#score-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#score-list span {
+    display: block;
+    width: 5svw;
+    padding: 0.3rem 1rem;
+    font-size: 0.6rem;
+    border: 1px solid gray;
+    text-transform: capitalize;
+}
+
+#score-list span.checked {
+    background-color: #2bff62;
+}
+#detail-score {
+    text-align: center;
+    padding-top: 1rem;
+}
+#detail-score span {
+
+}
