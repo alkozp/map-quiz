@@ -8,7 +8,9 @@ section {
 }
 
 form {
-    max-width: 30svw;
+    /* max-width: 30svw; */
+    text-align: center;
+    width: 100%;
     margin: 0 auto;
     font-size: 2rem;
 }
@@ -22,7 +24,7 @@ form span {
 }
 
 #input-country {
-    max-width: 18svw;
+    min-width: 10rem;
     font-size: 2rem;
     display: inline-block;
 }
@@ -44,6 +46,7 @@ form span {
 #timer {
     position:relative;
     top: -8.5rem;
+    left: -2rem;
     margin: 0 auto;
     width: 20rem;
     font-size: 4rem;
@@ -79,10 +82,32 @@ form span {
 #score-list span.checked {
     background-color: #2bff62;
 }
+
 #detail-score {
     text-align: center;
     padding-top: 1rem;
 }
+
 #detail-score span {
 
+}
+
+/* #world-map {
+    width: 50%;
+    height: auto;
+} */
+
+@media screen and (max-width: 650px) {
+    html {
+        font-size: 12px;
+    }    
+}
+
+@media screen and (max-width: 450px) {
+    html {
+        font-size: 10px;
+    }
+    #timer {
+        top: -12rem;
+    }    
 }

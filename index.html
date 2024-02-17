@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section id="map">
+    <!-- <section id="map"> -->
+        <!--            width="1009.6727"
+           height="665.96301" -->
         <svg
            xmlns:mapsvg="http://mapsvg.com"
            xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -15,9 +17,10 @@
            xmlns:svg="http://www.w3.org/2000/svg"
            xmlns="http://www.w3.org/2000/svg"
            id="world-map"
-           width="1009.6727"
-           height="665.96301"
+           viewbox="0 0 1010 667"
            preserveAspectRatio="xMidYMid meet"
+           width="80svw"
+           height="80svh"
            >
 
            <!-- mapsvg:geoViewBox="-169.110266 83.600842 190.486279 -58.508473" -->
@@ -1047,6 +1050,7 @@
          title="Zimbabwe"
          id="ZW" />
         </svg>
+
         <form>
             <label for="input-country"></label>
             <span id="start-timer"> 
@@ -1067,9 +1071,11 @@
         </span>
             <input type="text" id="input-country" placeholder="Enter country here">
             <p>[<span id="counter">0</span>/<span id="goal">500]</span></p>
+            <div id="timer">00:03</div>
         </form>
-        <div id="timer">01:00</div>
-    </section>
+
+        
+    <!-- </section> -->
     <dialog id="score">
         <div id="score-list">
         </div>
